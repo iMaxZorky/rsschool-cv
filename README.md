@@ -1,2 +1,2 @@
 # rsschool-cv
-https://github.com/iMaxZorky/rsschool-cv/cv
+https://iMaxZorky.github.io/rsschool-cv/cv
