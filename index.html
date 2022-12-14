@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap">
 </head>
 <body>
-  <header class="header">
-    <div class="container">
+  <div class="container">
+    <header class="header">
       <nav>
         <ul class="nav-list">
           <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
@@ -21,26 +21,103 @@
           <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
           <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
           <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-          <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
           <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
         </ul>        
       </nav>
-    </div>
-  </header>
-  <main class="main">
-    <div class="container">
-      <p class="paragraph">Get the fcuk</p>
-    </div>
-    <div class="container">
-      <img class="my-photo" src="./assets/img/img.jpg" alt="my photo">
+    </header>
+    <main class="main-container">
+      <div class="column-left">
+        <section class="section" id="profile">
+          <img class="my-photo" src="./assets/img/img.jpg" alt="my photo">
+          <h1 class="my-name">Maksim Kopravchuk</h1>
+          <h2 class="profession">Process control equipment engineer</h2>
 
-    </div>
+        </section>
+      </div>
+      <div class="column-right">
+        
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+          <ul>
+            <li>
+              <p>+7 (913) 653-56-79</p>
+            </li>
+            <li>
+              <p>mkoprav@gmail.com</p>
+            </li>
+            <li>
+              <p>@maxzorky</p>
+            </li>
+          </ul>
 
-  </main>
-  <footer class="footer">
-    <div class="container-footer">
-      <p class="p">asd</p>
-    </div>
-  </footer>    
+        </section>
+        <section class="section" id="summary">
+          <h2 class="section-title">Summary</h2>
+          <p>
+            Hi. My name is Maksim Kopravchuk. I'm from Omsk, Russian Federation. 
+            I'm 33 years old engineer, got Specialist degree in Omsk State Transport University. 
+            I chose this profession because I like engineering and I like to solve non-standard problems. But today it's time to move on, and I want to change my profession. To 
+            take all the best from my previous experience and enrich it with new. My favorite activities are gym, cycling and a wide variety of music, so I don't get bored. 
+            On the contrary, finding time for everything you want is getting harder every day :-)
+          </p>
+
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul>
+            <li>AutoCAD</li>
+            <li>Modbus</li>
+            <li>Adobe Photoshop</li>
+            <li>Git</li>
+            <li>MS SQL Manager</li>
+          </ul>
+        </section>
+        <section class="section" id="courses">
+          <h2 class="section-title">Courses</h2>
+          <p>Python for beginners on stepik.org</p>
+        </section>
+        <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <p>Omsk State Transport University (2006-2011)</p>
+          <p>Specialist degree in «Engineer of communication lines»</p>
+          <p>Specialization: Automation, telemechanics and communication in rail transport</p>
+        </section>
+        <section class="section" id="languages">
+          <h2 class="section-title">Languages</h2>
+          <ul>
+            <li>Russian (native)</li>
+            <li>English (intermediate)</li>
+            <li>Ukrainian (elementary)</li>
+          </ul>
+
+        </section>
+        <section class="section" id="code">
+          <h2 class="section-title">Code</h2>
+          <p>
+            <pre>
+              def solve(a, b, c):
+                  from math import sqrt
+                  d = b ** 2 - 4 * a * c
+                  if d == 0:
+                      x1 = x2 = (- b / 2 / a)
+                  else:
+                      x1 = (-b + sqrt(d)) / 2 / a
+                      x2 = (-b - sqrt(d)) / 2 / a
+                  if x1 > x2:
+                      x1, x2 = x2, x1
+                  return x1, x2
+              a, b, c = int(input()), int(input()), int(input())
+              x1, x2 = solve(a, b, c)
+              print(x1, x2)
+            </pre>
+          </p>
+        </section>
+      </div>  
+    </main>
+    <footer class="footer">
+      <p class="p"><a href="https://github.com/iMaxZorky">My GitHub</a></p>
+      </footer>
+  </div>    
 </body>
 </html>
