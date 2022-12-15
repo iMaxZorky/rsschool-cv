@@ -1,1 +1,159 @@
-#2
+* {
+  box-sizing: border-box;
+}
+
+html {
+/* Плавная прокрутка */
+  scroll-behavior: smooth; 
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+:root {
+  --main-text-color: hsl(37, 43%, 92%);
+}
+
+a:link {
+  color: hsl(60, 56%, 91%);
+  transition: .3s;
+  text-decoration: none;
+}
+a:visited {
+  color: hsl(60, 56%, 91%);
+  text-decoration: none;
+}
+a:hover {
+  color: hsl(35, 79%, 85%);
+  
+}
+a:active {
+  color: hsl(60, 56%, 91%);
+  text-decoration: none;
+}
+
+.header {
+  background-color: hsl(29, 38%, 42%);
+}
+
+.section{
+  margin: 20px;
+}
+
+.section-title {
+  margin: 10px;
+}
+
+.my-name {
+  font-size: 31px;
+  letter-spacing: 3px;
+  color: hsl(28, 31%, 31%);
+  text-transform: uppercase;
+}
+
+.nav-list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  list-style: none;
+  
+  font-size: 25px;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+}
+
+.contact-list {
+  
+  padding: 10px;
+}
+
+.contact-icon {
+  margin: 2px;
+  width: 31px;
+  height: 31px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center; 
+  list-style: none;
+}
+
+.my-photo {
+  width: 60%;
+  height: 60%;
+}
+
+.main-container {
+  display: flex;
+}
+
+.column-left {
+  width: 30%;
+  
+  text-align: center;
+}
+
+.column-right {
+  width: 70%;
+
+  color: var(--main-text-color);
+
+  background-color: hsl(29, 36%, 51%);
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.footer {
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: hsl(29, 38%, 42%);
+}
+
+.p {
+  margin: 0;
+  margin-left: 20px;
+
+  color: var(--main-text-color);
+}
+
+.p-footer {
+  margin: 0;
+  margin-left: 20px;
+
+  font-size: 25px;
+  color: var(--main-text-color);
+}
+
+.course-link {
+  margin-right: 20px;
+
+  width: 108px;
+  height: 40px;
+
+  background-image: url(./assets/img/rs_school_js.svg);
+}
+
+
+
+
+
