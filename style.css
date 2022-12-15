@@ -13,13 +13,41 @@ body {
   justify-content: space-between;
 
   font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+:root {
+  --main-text-color: hsl(37, 43%, 92%);
+}
+
+a:link {
+  color: hsl(60, 56%, 91%);
+  transition: .3s;
+  text-decoration: none;
+}
+a:visited {
+  color: hsl(60, 56%, 91%);
+  text-decoration: none;
+}
+a:hover {
+  color: hsl(35, 79%, 85%);
+  
+}
+a:active {
+  color: hsl(60, 56%, 91%);
+  text-decoration: none;
 }
 
 .header {
-  
-
   background-color: hsl(29, 38%, 42%);
+}
 
+.section{
+  margin: 20px;
+}
+
+.section-title {
+  margin: 10px;
 }
 
 .my-name {
@@ -44,13 +72,23 @@ body {
 .nav-link {
   padding: 0 20px;
   line-height: 50px;
-
-  text-decoration: none;
-  transition: .3s;
 }
 
-.nav-link:hover {
-  color: aquamarine;
+.contact-list {
+  
+  padding: 10px;
+}
+
+.contact-icon {
+  margin: 2px;
+  width: 31px;
+  height: 31px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center; 
+  list-style: none;
 }
 
 .my-photo {
@@ -71,6 +109,8 @@ body {
 .column-right {
   width: 70%;
 
+  color: var(--main-text-color);
+
   background-color: hsl(29, 36%, 51%);
 }
 
@@ -80,15 +120,37 @@ body {
 }
 
 .footer {
+  height: 50px;
+
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+
   background-color: hsl(29, 38%, 42%);
 }
 
-.paragraph {
-  background-color: rgb(207, 69, 69);
-}
 .p {
-    color: hsl(66, 57%, 54%);
+  margin: 0;
+  margin-left: 20px;
+
+  color: var(--main-text-color);
+}
+
+.p-footer {
+  margin: 0;
+  margin-left: 20px;
+
+  font-size: 25px;
+  color: var(--main-text-color);
+}
+
+.course-link {
+  margin-right: 20px;
+
+  width: 108px;
+  height: 40px;
+
+  background-image: url(./assets/img/rs_school_js.svg);
 }
 
 
