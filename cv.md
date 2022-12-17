@@ -24,12 +24,12 @@ Python for beginners on stepik.org
 ## __Education__ 
 Omsk State Transport University (2006-2011)\
 Specialist degree in «Engineer of communication lines»\
-Specialization: Automation, telemechanics and communication in rail transport\
+Specialization: Automation, telemechanics and communication in rail transport
 
 ## __Languages__
 __Russian__ native\
 __English__ intermediate\
-__Ukrainian__ elementary\
+__Ukrainian__ elementary
 
 ## __Code Example__
 ```
