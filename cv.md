@@ -22,14 +22,14 @@ Hi. My name is Maksim Kopravchuk. I'm from Omsk, Russian Federation. I'm 33 year
 Python for beginners on stepik.org
 
 ## __Education__ 
-Omsk State Transport University (2006-2011)
-Specialist degree in «Engineer of communication lines»
-Specialization: Automation, telemechanics and communication in rail transport
+Omsk State Transport University (2006-2011)\
+Specialist degree in «Engineer of communication lines»\
+Specialization: Automation, telemechanics and communication in rail transport\
 
 ## __Languages__
-__Russian__ native
-__English__ intermediate
-__Ukrainian__ elementary
+__Russian__ native\
+__English__ intermediate\
+__Ukrainian__ elementary\
 
 ## __Code Example__
 ```
