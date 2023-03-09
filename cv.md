@@ -25,6 +25,7 @@ Python for beginners on stepik.org
 JS/FE PRE-SCHOOL 2022Q4 (JAVASCRIPT)
 
 **Education**
+
 Omsk State Transport University (2006-2011)  
 Specialist degree in «Engineer of communication lines»  
 Specialization: Automation, telemechanics and communication in rail transport  
